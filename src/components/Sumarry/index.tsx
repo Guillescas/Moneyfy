@@ -9,7 +9,7 @@ import totalImg from '../../assets/total.svg'
 import { Container } from "./styles";
 
 export function Sumarry() {
-  const transactions = useContext(TransactionsContext);
+  const { transactions } = useContext(TransactionsContext);
 
   return(
     <Container>
