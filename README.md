@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="logo moveit"  src="./src/assets/logo.svg">
+  <img alt="logo moveit"  src="./src/assets/logo-dark.svg">
 </div>
 
 <p align="center">This app helps you to control your finances. You can add incomes and outcomes, and see your balance.</p>
