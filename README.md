@@ -16,8 +16,6 @@
 
 I have to develop moneyfy during Ignite course, from Rocketseat. We learned some cool stuffs, like React Hooks and Context API. 
 
-![Logo to-do app](./public/main-screen-todo.png)
-
 <h2 id="objective">🎯 Objective</h2>
 
 A simple app to help you see all your incomes and outcomes. Moneyfy calculates your balance for you.
