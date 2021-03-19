@@ -1,46 +1,73 @@
-# Getting Started with Create React App
+<div align="center">
+  <img alt="logo moveit"  src="./src/assets/logo.svg">
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">This app helps you to control your finances. You can add incomes and outcomes, and see your balance.</p>
 
-## Available Scripts
+<p align="center">
+ <a href="#objective">Objective</a> •
+ <a href="#technologies">Technologies</a> • 
+ <a href="#features">Features</a> • 
+ <a href="#usage">Usage</a> • 
+ <a href="#contribution">Contribution</a> • 
+ <a href="#author">Author</a> • 
+ <a href="#license">License</a>
+</p>
 
-In the project directory, you can run:
+I have to develop moneyfy during Ignite course, from Rocketseat. We learned some cool stuffs, like React Hooks and Context API. 
 
-### `yarn start`
+![Logo to-do app](./public/main-screen-todo.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2 id="objective">🎯 Objective</h2>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A simple app to help you see all your incomes and outcomes. Moneyfy calculates your balance for you.
 
-### `yarn test`
+<h2 id="technologies">🛠 Technologies </h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ReactJS](https://reactjs.org)
+- [Typescript](https://www.typescriptlang.org/)
+- [WebPack](https://webpack.js.org/)
+- [Babel](https://babeljs.io/)
+- [React Hooks: useState, useEffect and useContext](https://pt-br.reactjs.org/docs/hooks-intro.html)
 
-### `yarn build`
+<h2 id="features">🚀 Features</h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Add new income or outcome
+- Calculate your balance
+- Show all incomes and outcomes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2 id="usage">👷 Usage </h2>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Required! Install git, node and yarn (or npm).
 
-### `yarn eject`
+```bash
+# Clone Repository
+$ git clone https://github.com/Guillescas/Moneyfy
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Go to server folder
+$ cd Moneyfy
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Install Dependencies
+$ yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Run Aplication
+$ yarn dev
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Access localhost
+http://localhost:3000
+```
+<h2 id="contribution">🤝 Contribution</h2>
 
-## Learn More
+This project is for study purposes too, so send me an email telling me what you are doing and why you are doing it, teach me what you know. All kinds of contributions are very welcome and appreciated!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h2 id="author">💻 Author </h2>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img style="border-radius: 50%;" src="https://github.com/guillescas.png" width="100px;" alt="Foto de Guilherme Illescas"/>
+
+By Guilherme Illescas. You can find me in:
+
+[![Linkedin Badge](https://img.shields.io/badge/-GuilhermeIllescas-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/guilherme-illescas/)](https://www.linkedin.com/in/guilherme-illescas/)
+[![Gmail Badge](https://img.shields.io/badge/-oi@guilhermeillescas.dev-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:oi@guilhermeillescas.dev)](mailto:oi@guilhermeillescas.dev)
+
+<h2 id="license">📝 License</h2>
+You can copy and edit this project. Enjoy :)
